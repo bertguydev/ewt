@@ -33,6 +33,25 @@
         </div>
     </main>
 
+    <section class="features">
+        <div class="container">
+            <div class="d-flex justify-content-around">
+                <div class="col-4 text-center">
+                    <h2>Feature</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam expedita adipisci voluptatem.</p>
+                </div>
+                <div class="col-4 text-center">
+                    <h2>Feature</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam expedita adipisci voluptatem.</p>
+                </div>
+                <div class="col-4 text-center">
+                    <h2>Feature</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam expedita adipisci voluptatem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
