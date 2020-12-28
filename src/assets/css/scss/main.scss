@@ -11,21 +11,31 @@ header {
     }
 }
 
+// Homepage
+.home {
+    section {
+        h2 {
+            margin: 0;
+        }
+    }
+}
+
 // Hero Slider
 /* contain the main slider */
 
-
 .slide-text {
     position: relative;
-    min-height: 350px;
+    min-height: 450px;
 
     h2 {
         font-size: 44px;
         margin: 0;
+        text-transform: uppercase;
     }
 
     h1 {
         margin: 0;
+        text-transform: uppercase;
     }
 }
 
@@ -35,18 +45,58 @@ header {
     align-items: center;
 }
 
-.slide-1 {
-    background-image: url(../../../images/hero.webp);
+.slide-3 {
+    background-image: url(../../../images/hero3.webp);
 }
 
 .slide-2 {
     background-image: url(../../../images/hero2.webp);
 }
 
+.slide-1 {
+    background-image: url(../../../images/hero1.jpg);
+}
+
 // Features Section
 .features {
+    padding: 50px 0;
+
     .col-4 {
-        border: 1px solid #ccc;
+        box-shadow: 0 1px 6px #ccc;
+        padding: 20px 0;
+
+        h2 {
+            margin: 0 0 20px;
+        }
+
+        p {
+            margin: 0 auto;
+            max-width: 95%;
+        }
+    }
+}
+
+// Trust Section
+.trust {
+    background-color: #dadce2;
+    padding: 30px 0;
+    
+}
+
+// Pre Footer Request Quote Section
+.request-quote
+
+// Footer 
+footer {
+    padding: 20px 0;
+    color: #eee;
+    background-color: #2d333a;
+
+    .copyright {
+        p {
+            font-size: 14px;
+            margin: 0;
+        }
     }
 }
 

@@ -12,7 +12,7 @@
                     <a href="/industries-served/"><div class="nav-item">Industries Served</div></a>
                     <a href="/areas/"><div class="nav-item">Areas</div></a>
                     <a href="/contact/"><div class="nav-item">Contact Us</div></a>
-                    <a href="/request-quote/"><div class="nav-item">Request Quote</div></a>
+                    <a href="/request-quote/" class="quote-btn"><div class="nav-item">Request Quote</div></a>
                 </nav>
             </div>
         </div>
