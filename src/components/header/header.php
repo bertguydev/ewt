@@ -6,7 +6,6 @@
             </div>
             <div class="col-8">
                 <nav class="d-flex justify-content-end">
-                    <a href="/"><div class="nav-item">Home</div></a>
                     <a href="/about/"><div class="nav-item">About</div></a>
                     <a href="/services/"><div class="nav-item">Services</div></a>
                     <a href="/industries-served/"><div class="nav-item">Industries Served</div></a>

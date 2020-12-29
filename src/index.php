@@ -1,3 +1,15 @@
+<?php 
+
+/*
+**
+** Home Page
+**
+*/
+
+$page_title = 'Home';
+$is_home = true;
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,15 +48,15 @@
     <section class="features">
         <div class="container">
             <div class="d-flex justify-content-around">
-                <div class="col-4 text-center">
+                <div class="col-4 text-center panel">
                     <h2>Local Trucking</h2>
                     <p>What separates us from other trucking companies in Southern California is our robust freight services. Our trucks allow us to effectively work with a variety of industries and safely and quickly transport an array of goods.</p>
                 </div>
-                <div class="col-4 text-center">
+                <div class="col-4 text-center panel">
                     <h2>Cross Docking</h2>
                     <p>Our logistic company offers warehousing services in our new centrally-located storage facility in Los Angeles. We utilize a variety of security measures to ensure that your merchandise is safe and protected for however long or short it is in our warehouse. </p>
                 </div>
-                <div class="col-4 text-center">
+                <div class="col-4 text-center panel">
                     <h2>Warehouse Services</h2>
                     <p>At Easy Way Transportation, your deadlines are our deadlines, which is why our logistics company offers cross docking services. On-time delivery is critical to your business’ success. Our cross docking services offers greater flexibility and efficiency your business needs for each delivery.</p>
                 </div>
@@ -72,9 +84,6 @@
 
     <?php include 'components/footer/footer.php'; ?>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <?php include 'components/js-includes.php'; ?>
 </body>
 </html>
