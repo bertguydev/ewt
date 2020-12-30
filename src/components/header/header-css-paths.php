@@ -3,5 +3,6 @@
     <link rel="stylesheet" href="../assets/css/styles/sub-pages.css">
 <?php }else { ?>
     <link rel="stylesheet" href="assets/css/styles/style.css">
+    <link rel="stylesheet" href="assets/css/styles/home.css">
 <?php } ?>
 

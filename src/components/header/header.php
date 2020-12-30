@@ -1,4 +1,4 @@
-<header class="w100">
+<header class="w100 header">
     <div class="container">
         <div class="d-flex w100 justify-content-between align-items-center">
             <div class="col-2">
