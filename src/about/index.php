@@ -6,7 +6,7 @@
 **
 */
 
-$page_title = 'About Easy Transportation';
+$page_title = 'About Easy Way Transportation';
 
 ?>
 <!DOCTYPE html>
@@ -18,13 +18,77 @@ $page_title = 'About Easy Transportation';
     <meta name="description" content="Learn more about Easy Way Transportation. A family owned trucking business here to help get your load to the place it needs to go.">
     <?php include '../components/header/header-css-paths.php' ?>
 </head>
-<body class="home">
+<style>
+    h1 {
+        text-align: center;
+    }
+    .sub-hero {
+        background: url(../images/about.jpg);
+        min-height: 250px;
+        background-size: cover;
+    }
+    main {
+        margin: 0px 0;
+    }
+    .one {
+        padding: 25px 0;
+    }
+    .one .panel {
+        margin: 20px 0;
+    }
+    .two {
+        padding: 20px 0;
+        background: #ddd;
+    }
+    .circle {
+        background: green;
+        height: 460px;
+        width: 100%;
+        border-radius: 50%;
+    }
+</style>
+<body class="about">
     <?php include '../components/header/header.php'; ?>
     <?php include '../components/header/sub-page-title.php'; ?>
 
     <main>
-        hi Mom!
+        <div class="w100 sub-hero">
+            
+        </div>
     </main>
+    <section class="one">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="col-8">
+                <div class="panel">
+                    <h2>At Easy Way Transportation, We're Family</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sed ipsam vitae debitis beatae nesciunt nostrum dicta, fugiat possimus nisi quibusdam dolor ducimus consectetur, non sapiente animi quaerat veritatis deleniti.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident minus quasi atque enim ipsum architecto hic maiores, dolore voluptas dolorum autem tenetur harum eaque possimus debitis voluptate qui. Atque.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="circle">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="two">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="col-4">
+                <div class="circle">
+
+                </div>
+            </div>
+            <div class="col-8">
+                
+                <div class="panel">
+                    <h2>At Easy Way Transportation, We're Family</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sed ipsam vitae debitis beatae nesciunt nostrum dicta, fugiat possimus nisi quibusdam dolor ducimus consectetur, non sapiente animi quaerat veritatis deleniti.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident minus quasi atque enim ipsum architecto hic maiores, dolore voluptas dolorum autem tenetur harum eaque possimus debitis voluptate qui. Atque.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     
     <?php include '../components/footer/footer.php'; ?>

@@ -6,6 +6,8 @@
 
 // Header
 header {
+    box-shadow: 0 2px 3px #ddd;
+
     .nav-item {
         padding: 20px 15px;
     }
@@ -62,15 +64,13 @@ header {
     padding: 50px 0;
 
     .col-4 {
-        padding: 20px 0;
-
+        
         h2 {
             margin: 0 0 20px;
         }
 
         p {
             margin: 0 auto;
-            max-width: 95%;
         }
     }
 }
