@@ -81,14 +81,6 @@
     width: 96%;
 }
 
-.w100 {
-    width:100%;
-}
-
-.h100 {
-    height: 100%;
-}
-
 .row::after {
     content: "";
     display: table;
@@ -168,6 +160,58 @@
 
     .col-12 {
         width: 96%;
+    }
+
+    .w08 {
+        width: 8.33%;
+    }
+
+    .w16 {
+        width: 16.66%;
+    }
+
+    .w25 {
+        width: 25%;
+    }
+
+    .w33 {
+        width: 33.33%;
+    }
+
+    .w41 {
+        width: 41.66%;
+    }
+
+    .w50 {
+        width: 50%;
+    }
+
+    .w58 {
+        width: 58.33%;
+    }
+
+    .w66 {
+        width: 66.66%;
+    }
+
+    .w75 {
+        width: 75%;
+    }
+
+    .w83 {
+        width: 83.33%;
+    }
+
+    .w91 {
+        width: 91.66%;
+    }
+
+    .w100 {
+        width:100%;
+    }
+    
+    .h100 {
+        height: 100%;
     }
 
     .hidden-sm {
