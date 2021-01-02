@@ -7,6 +7,8 @@
 */
 
 $page_title = 'About Easy Way Transportation';
+$meta_description = 'Learn more about Easy Way Transportation. A family owned trucking business here to help get your load to the place it needs to go.';
+$seo_title = 'About Us - Easy Way Transportation';
 
 ?>
 <!DOCTYPE html>
@@ -14,8 +16,8 @@ $page_title = 'About Easy Way Transportation';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Easy Way Transportation</title>
-    <meta name="description" content="Learn more about Easy Way Transportation. A family owned trucking business here to help get your load to the place it needs to go.">
+    <title><?= $meta_description; ?></title>
+    <meta name="description" content="<?= $seo_title; ?>">
     <?php include '../components/header/header-css-paths.php' ?>
 </head>
 <style>
@@ -41,7 +43,7 @@ $page_title = 'About Easy Way Transportation';
         background: #ddd;
     }
     .circle {
-        background: green;
+        background: url(../images/team-about.jpg);
         height: 460px;
         width: 100%;
         border-radius: 50%;
@@ -58,16 +60,11 @@ $page_title = 'About Easy Way Transportation';
     </main>
     <section class="one">
         <div class="container d-flex align-items-center justify-content-between">
-            <div class="col-8">
+            <div class="col-12">
                 <div class="panel">
-                    <h2>At Easy Way Transportation, We're Family</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sed ipsam vitae debitis beatae nesciunt nostrum dicta, fugiat possimus nisi quibusdam dolor ducimus consectetur, non sapiente animi quaerat veritatis deleniti.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora provident minus quasi atque enim ipsum architecto hic maiores, dolore voluptas dolorum autem tenetur harum eaque possimus debitis voluptate qui. Atque.</p>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="circle">
-
+                    <h2>Tralier Load and Less Than Trailer Load Trucking</h2>
+                    <p>Easy Way Transportation (EWT) is here for your Trailer Load and Less Than Trailer Load Trucking needs. We provide pick and delivery services to Los Angeles County, the greater Los Angeles area, Orange County and the Inland Empire.</p>
+                    <p>Established in 2006, we've made a name for ourselves by providing top of the line customer care and highly dependable drivers. We'll take complete care of your shipment from start to finish.</p>
                 </div>
             </div>
         </div>

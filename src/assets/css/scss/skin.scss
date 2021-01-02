@@ -4,7 +4,7 @@ html {
     color: #444;
 }
 .quote-btn {
-    background-color: orange;
+    background-color: #bd3835;
     color: #fff;
 
     :hover {
@@ -12,6 +12,11 @@ html {
         text-shadow: 0 1px 4px rgb(163, 81, 5);
         background-color: #ff8f33;
     }
+}
+
+button {
+    background-color: #bd3835;
+    color:#fff
 }
 
 // Header

@@ -4,6 +4,16 @@
 *** So it goes.
 **/
 
+// Pre Header
+.pre-header {
+    background-color: #1e1d1d;
+    
+    p {
+        color: #eee;
+        margin: 0;
+    }
+}
+
 // Header
 header {
     background-color: #fff;
@@ -34,7 +44,8 @@ header {
 
 // Pre Footer Request Quote Section
 .request-quote {
-    background-color: orange;
+    background-color: #1e1d1d;
+    color: #ddd;
     padding: 15px 0;
 
     button {
