@@ -3,31 +3,41 @@ html {
     font-family: 'Roboto', sans-serif;
     color: #444;
 }
-.quote-btn {
-    background-color: #bd3835;
-    color: #fff;
-
-    :hover {
-        color: #fff;
-        text-shadow: 0 1px 4px rgb(163, 81, 5);
-        background-color: #ff8f33;
-    }
-}
 
 button {
     background-color: #bd3835;
-    color:#fff
+    color:#fff;
+}
+
+button:hover {
+    text-shadow: 0 1px 4px rgb(190, 34, 29);
+    background-color: #cc4e4a;    
 }
 
 // Header
 header {
     a {
-        color: #444;
-
-        :hover{
-            color: orange;
-        }
+        color: #444;     
     }
+
+    a:hover{
+        color: #bd3835;
+    }
+
+    a.quote-btn:hover {
+        color: #fff;
+    }
+}
+
+.quote-btn {
+    background-color: #bd3835;
+    color: #fff;
+}
+
+.quote-btn:hover {
+    color: #fff;
+    text-shadow: 0 1px 4px rgb(190, 34, 29);
+    background-color: #cc4e4a;
 }
 
 //Homepage hero

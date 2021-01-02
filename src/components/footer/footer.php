@@ -7,7 +7,7 @@
 <footer>
     <div class="container">
         <div class="w100 copyright text-center">
-            <p>&#169; Copyright <span id="thisYear"></span> Easy Way Transportation. All Rights Reserved.</p>
+            <p class="m-0">&#169; Copyright <span id="thisYear"></span> Easy Way Transportation. All Rights Reserved.</p>
         </div>
     </div>
 </footer>

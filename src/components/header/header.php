@@ -10,8 +10,8 @@ $pre_header = 'EWT is considered an essential businness and is currently operati
 ?>
 
 <?php if(!empty($pre_header)) { ?>
-    <div class="pre-header">
-        <p><?= $pre_header; ?></p>
+    <div class="pre-header text-center">
+        <p class="m-0"><?= $pre_header; ?></p>
     </div>
 <?php } ?>
 <header class="w100 header">

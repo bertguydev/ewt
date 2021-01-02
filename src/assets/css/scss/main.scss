@@ -6,11 +6,12 @@
 
 // Pre Header
 .pre-header {
+    padding: 3px;
     background-color: #1e1d1d;
     
     p {
         color: #eee;
-        margin: 0;
+        font-size: 13px;
     }
 }
 
@@ -54,10 +55,6 @@ header {
         border: none;
         border-radius: 5px;
     }
-
-    h3 {
-        margin: 0;
-    }
 }
 
 // Footer 
@@ -69,7 +66,6 @@ footer {
     .copyright {
         p {
             font-size: 14px;
-            margin: 0;
         }
     }
 }

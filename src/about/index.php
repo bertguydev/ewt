@@ -53,6 +53,13 @@ $seo_title = 'About Us - Easy Way Transportation';
     <?php include '../components/header/header.php'; ?>
     <?php include '../components/header/sub-page-title.php'; ?>
 
+    <p class="text-center">
+    EWT, a quickly rising leader in Southern California transportation and warehousing industry. 
+    </p>
+    <p class="text-center">
+    We maintin the strongest commitment to safe and efficient shipping and dedicated customer service.
+    </p>
+    
     <main>
         <div class="w100 sub-hero">
             
