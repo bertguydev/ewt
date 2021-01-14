@@ -8,6 +8,7 @@
 
 $page_title = 'Request a Quote';
 $seo_title = 'Request a Quote For Trucking From Easy Way Transportation';
+$request_quote_page = 1;
 
 ?>
 <!DOCTYPE html>

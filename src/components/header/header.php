@@ -30,21 +30,12 @@ $pre_header = 'EWT is considered an essential businness and is currently operati
             </div>
             <div class="col-8">
                 <nav class="d-flex justify-content-end">
-                <?php if(empty($is_home)){ ?>
-                    <a href="../about"><div class="nav-item">About</div></a>
-                    <a href="../services"><div class="nav-item">Services</div></a>
-                    <a href="../industries-served"><div class="nav-item">Industries Served</div></a>
-                    <a href="../areas"><div class="nav-item">Areas</div></a>
-                    <a href="../contact"><div class="nav-item">Contact Us</div></a>
-                    <a href="../request-quote" class="quote-btn"><div class="nav-item">Request Quote</div></a>
-                <?php }else { ?>
-                    <a href="about"><div class="nav-item">About</div></a>
-                    <a href="services"><div class="nav-item">Services</div></a>
-                    <a href="industries-served"><div class="nav-item">Industries Served</div></a>
-                    <a href="areas"><div class="nav-item">Areas</div></a>
-                    <a href="contact"><div class="nav-item">Contact Us</div></a>
-                    <a href="request-quote" class="quote-btn"><div class="nav-item">Request Quote</div></a>
-                <?php  } ?>
+                    <a href="<?php if(empty($is_home)){ echo '../'; }?>about"><div class="nav-item">About</div></a>
+                    <a href="<?php if(empty($is_home)){ echo '../'; }?>services"><div class="nav-item">Services</div></a>
+                    <a href="<?php if(empty($is_home)){ echo '../'; }?>industries-served"><div class="nav-item">Industries Served</div></a>
+                    <a href="<?php if(empty($is_home)){ echo '../'; }?>areas"><div class="nav-item">Areas</div></a>
+                    <a href="<?php if(empty($is_home)){ echo '../'; }?>contact-us"><div class="nav-item">Contact Us</div></a>
+                    <a href="<?php if(empty($is_home)){ echo '../'; }?>request-quote" class="quote-btn"><div class="nav-item">Request Quote</div></a>
                 </nav>
             </div>
         </div>
