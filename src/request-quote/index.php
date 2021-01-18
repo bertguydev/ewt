@@ -46,12 +46,7 @@ $request_quote_page = 1;
         border-radius: 50%;
     }
 
-    .sub-page input {
-        margin: 0 0 20px;
-        padding: 5px 3px;
-        border-radius: 3px;
-        border-bottom: 1px solid #aaa;
-    }
+    
 
 </style>
 <body class="request-quote-page sub-page">
