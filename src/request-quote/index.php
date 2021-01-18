@@ -21,9 +21,6 @@ $request_quote_page = 1;
     <?php include '../components/header/header-css-paths.php' ?>
 </head>
 <style>
-    h1{
-        text-align: center;
-    }
     .sub-hero {
         background: url(../images/about.jpg);
         min-height: 250px;

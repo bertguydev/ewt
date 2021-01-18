@@ -21,9 +21,7 @@ $seo_title = 'Areas | Easy Way Transportation';
     <?php include '../components/header/header-css-paths.php' ?>
 </head>
 <style>
-    h1 {
-        text-align: center;
-    }
+   
 </style>
 <body class="areas-page">
 
