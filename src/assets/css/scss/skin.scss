@@ -14,6 +14,16 @@ button:hover {
     background-color: #cc4e4a;    
 }
 
+input, textarea {
+    background-color: #efefef;
+    border-bottom: 1px solid #aaa;
+}
+
+.panel input, textarea {
+    background-color: #fff;
+}
+
+
 // Header
 header {
     a {

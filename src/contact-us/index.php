@@ -21,7 +21,15 @@ $seo_title = 'Contact Easy Way Transportation';
     <?php include '../components/header/header-css-paths.php' ?>
 </head>
 <style>
-    
+    .contact-us-page button {
+        padding: 10px;
+    }
+    .col-4 {
+        border-right: 1px solid #efefef;
+    }
+    .col-8 {
+        padding: 0 0 0 20px;
+    }
 </style>
 <body class="contact-us-page sub-page">
 
@@ -36,19 +44,19 @@ $seo_title = 'Contact Easy Way Transportation';
                 </div>
             </div>
             <div class="d-flex mb-md">
-                <div class="col-3">
+                <div class="col-4">
                     <div class="contact-left">
                         <h2>Phone & Email:</h2>
                         <p>555-555-5555</p>
                         <p>shipping@ewt-transportation.com</p>
                     </div>
                 </div>
-                <div class="col-9">
+                <div class="col-8">
                     <h2>Send Us a Message</h2>
                     <form action="#" class="d-flex flex-column">
                         <input type="text" name="full_name" placeholder="Full Name">
                         <input type="text" name="email_address" placeholder="Email">
-                        <textarea name="message" id="contactMessage" cols="30" rows="7"></textarea>
+                        <textarea name="message" id="contactMessage" cols="30" rows="7" class="mb-md"></textarea>
                         <button type="submit">Send Message</button>
                     </form>
                 </div>
