@@ -24,6 +24,8 @@ $seo_title = 'Trucking Services - Easy Way Transportation';
     
     h2 {
         font-size: 24px;
+        margin: 0;
+        padding: 10px 0;
     }
 
     .services.panel p {
@@ -50,21 +52,21 @@ $seo_title = 'Trucking Services - Easy Way Transportation';
                     <div class="services panel p-0 text-center">
                     <h2>Warehousing</h2>
                     <img src="../images/warehousing.jpg" alt="" class="w100">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid maxime quam ad nobis velit nam quasi reprehenderit optio quibusdam earum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid maxime quam ad nobis velit nam quasi reprehenderit optio quibusdam earum. Sit amet consectetur</p>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="services panel p-0 text-center">
                     <h2>Cross Docking</h2>
                     <img src="../images/crossdock.jpg" alt="" class="w100">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid maxime quam ad nobis velit nam quasi reprehenderit optio quibusdam earum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid maxime quam ad nobis velit nam quasi reprehenderit optio quibusdam earum. Sit amet consectetur</p>
                     </div>
                 </div>
                 <div class="col-3">
                     <div class="services panel p-0 text-center">
                     <h2>Dry Products</h2>
                     <img src="../images/dry-product.jpg" alt="" class="w100">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid maxime quam ad nobis velit nam quasi reprehenderit optio quibusdam earum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid maxime quam ad nobis velit nam quasi reprehenderit optio quibusdam earum. sit amet consectetur</p>
                     </div>
                 </div>
             </div>

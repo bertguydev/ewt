@@ -21,32 +21,15 @@ $request_quote_page = 1;
     <?php include '../components/header/header-css-paths.php' ?>
 </head>
 <style>
-    .sub-hero {
-        background: url(../images/about.jpg);
-        min-height: 250px;
-        background-size: cover;
-    }
+
     main {
-        margin: 0px 0;
-    }
-    .one {
-        padding: 25px 0;
-    }
-    .one .panel {
-        margin: 20px 0;
-    }
-    .two {
-        padding: 20px 0;
-        background: #ddd;
-    }
-    .circle {
-        background: green;
-        height: 460px;
-        width: 100%;
-        border-radius: 50%;
+        margin: 0px 0 20px;
     }
 
-    
+    .request-form input {
+        padding: 10px 5px;
+        margin: 0 0 5px;
+    }
 
 </style>
 <body class="request-quote-page sub-page">
@@ -75,7 +58,7 @@ $request_quote_page = 1;
                 </div>
                 <div class="col-9">
                     <h4 class="text-center">Fill Out The Form Below and a representative will call or email your quote.</h4>
-                    <form action="" method="POST" class="d-flex justify-content-around">
+                    <form action="" method="POST" class="d-flex justify-content-around request-form">
                         <input class="col-6" type="text" name="first_name" placeholder="First Name" required>
                         <input class="col-6" type="text" name="last_name" placeholder="Last Name" required>
                         <input class="col-6" type="text" name="company_name" placeholder="Company Name" required>

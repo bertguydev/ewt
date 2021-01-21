@@ -44,6 +44,11 @@
     background-image: url(../../../images/hero1.jpg);
 }
 
+button.slick-next:hover,
+button.slick-prev:hover {
+    background: none;
+}
+
 // Features Section
 .features {
     padding: 50px 0;

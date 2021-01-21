@@ -14,12 +14,14 @@ button:hover {
     background-color: #cc4e4a;    
 }
 
-input, textarea {
+input,
+textarea {
     background-color: #efefef;
     border-bottom: 1px solid #aaa;
 }
 
-.panel input, textarea {
+.panel input, 
+.panel textarea {
     background-color: #fff;
 }
 
