@@ -21,25 +21,50 @@ $seo_title = 'Industries Served | Easy Way Transportation';
     <?php include '../components/header/header-css-paths.php' ?>
 </head>
 <style>
-
+    h2 {
+        margin: 30px 0 10px;
+    }
 </style>
 <body class="industries-served-page">
 
     <?php include '../components/header/header.php'; ?>
     <?php include '../components/header/sub-page-title.php'; ?>
 
-    
-
     <main>
-        <div class="container">
-            <div class="d-flex">
-                
-            </div>
-        </div>
+        <img src="../images/industries.jpg" alt="" class="w100">
     </main>
+    <div class="container">
+        <h2>Cosmetics/Packaging and Raw Materials</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, ea? Cumque dolorum facere voluptas magnam consectetur iste hic error soluta?</p>
+        <h2>Vitamin/Bottle Waters</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, ea? Cumque dolorum facere voluptas magnam consectetur iste hic error soluta?</p>
+        <h2>Food Products & Food Grade Raw Materials</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, ea? Cumque dolorum facere voluptas magnam consectetur iste hic error soluta?</p>
+        <h2>Packaging Materials</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt, ea? Cumque dolorum facere voluptas magnam consectetur iste hic error soluta?</p>
+        <h2>Automotive</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h2>Homeopathic/Vitamins</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. <p>
+        <h2>Printed Material/Paper Products</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <h2>Chemicals (Non-hazardous)</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <h2>Household Cleaning Products</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <h2>Apparel</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta.</p>
+        <h2>Plastic Products</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <h2>Glass Products</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, corporis? Consectetur voluptates, iusto cupiditate ad corporis nesciunt at aliquam sed temporibus dicta! Rem quae porro distinctio doloremque obcaecati voluptates eveniet.</p>
+    </div>
     
     <?php include '../components/footer/footer.php'; ?>
 
     <?php include '../components/js-includes.php'; ?>
+    
 </body>
 </html>

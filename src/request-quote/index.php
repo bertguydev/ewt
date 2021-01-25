@@ -39,7 +39,8 @@ h4 {
 }
 
 h3 {
-    font-size: 24px
+    font-size: 24px;
+    margin: 0 0 10px 10px;
 }
 
 .w75 form {
@@ -88,7 +89,7 @@ button {
                 </div>
                 <div class="w75">
                     <form action="" method="POST" class="d-flex justify-content-around request-form">
-                        <h4>Fill Out The Form Below and a representative will call or email your quote.</h4>
+                        <h4 class="w100 mb-sm">Fill Out The Form Below and a representative will call or email your quote.</h4>
                         <input class="col-6" type="text" name="first_name" placeholder="First Name" required>
                         <input class="col-6" type="text" name="last_name" placeholder="Last Name" required>
                         <input class="col-6" type="text" name="company_name" placeholder="Company Name" required>
